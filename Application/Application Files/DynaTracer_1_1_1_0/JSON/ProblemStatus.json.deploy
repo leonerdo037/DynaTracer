@@ -1,0 +1,10 @@
+﻿{
+  "result": {
+    "totalOpenProblemsCount": 47,
+    "openProblemCounts": {
+      "INFRASTRUCTURE": 37,
+      "SERVICE": 3,
+      "APPLICATION": 7
+    }
+  }
+}

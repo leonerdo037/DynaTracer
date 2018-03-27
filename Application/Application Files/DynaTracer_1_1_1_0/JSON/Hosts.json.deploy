@@ -1,0 +1,553 @@
+﻿[
+  {
+    "entityId": "HOST-DEMO03713701",
+    "displayName": "VarealistDesktop",
+    "discoveredName": "DESKTOP-37KUPS",
+    "firstSeenTimestamp": 1517846979952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713702",
+        "HOST-DEMO03713703"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X86",
+    "osVersion": "Windows 10 Home, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 137,
+      "revision": 182,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713702",
+    "displayName": "VarealistServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X64",
+    "osVersion": "Windows Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713703",
+    "displayName": "DemoServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-linux"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "LINUX",
+    "osArchitecture": "X64",
+    "osVersion": "Red Hat Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713704",
+    "displayName": "TestServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517826479952,
+    "lastSeenTimestamp": 1522159465942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X64",
+    "osVersion": "Windows Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713706",
+    "displayName": "DevServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-unix"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "UNIX",
+    "osArchitecture": "X64",
+    "osVersion": "UNIX Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO037137012",
+    "displayName": "StubServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X86",
+    "osVersion": "Windows Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "86bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713722",
+    "displayName": "TempServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-aix"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "AIX",
+    "osArchitecture": "X64",
+    "osVersion": "AIX Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713712",
+    "displayName": "DefaultServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X64",
+    "osVersion": "Windows Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0",
+      "0.0.3.7"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO03713732",
+    "displayName": "Server",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X64",
+    "osVersion": "Windows Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  },
+  {
+    "entityId": "HOST-DEMO037137021",
+    "displayName": "DunderServer",
+    "discoveredName": "SERVER-37KUPS",
+    "firstSeenTimestamp": 1517846479952,
+    "lastSeenTimestamp": 1522159460942,
+    "tags": [
+      {
+        "context": "CONTEXTLESS",
+        "key": "os-windows"
+      }
+    ],
+    "fromRelationships": {
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713701",
+        "HOST-DEMO03713706"
+      ]
+    },
+    "toRelationships": {
+      "isProcessOf": [
+        "PROCESS_GROUP_INSTANCE-DEMO03713701",
+        "PROCESS_GROUP_INSTANCE-DEMO03713702",
+        "PROCESS_GROUP_INSTANCE-DEMO03713703"
+      ],
+      "isSiteOf": [
+        "GEOLOC_SITE-DEMO03713701"
+      ],
+      "isNetworkClientOfHost": [
+        "HOST-DEMO03713705"
+      ],
+      "runsOn": [
+        "PROCESS_GROUP-DEMO03713701",
+        "PROCESS_GROUP-DEMO03713702",
+        "PROCESS_GROUP-DEMO03713703"
+      ]
+    },
+    "osType": "WINDOWS",
+    "osArchitecture": "X64",
+    "osVersion": "Windows Server, ver. 10.0.16299",
+    "ipAddresses": [
+      "0.0.0.0"
+    ],
+    "bitness": "64bit",
+    "cpuCores": 2,
+    "logicalCpuCores": 4,
+    "monitoringMode": "FULL_STACK",
+    "agentVersion": {
+      "major": 1,
+      "minor": 136,
+      "revision": 181,
+      "sourceRevision": "",
+      "timestamp": "20180309-110236"
+    },
+    "consumedHostUnits": 0.5
+  }
+]
