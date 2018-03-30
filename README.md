@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## DynaTracer
 
-You can use the [editor on GitHub](https://github.com/leonerdo037/DynaTracer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  DynaTracer is a windows client, powered by the Dynatrace REST API. The client will automatically update on every new release. The basic classes used to initiate the API calls and store data, are provided in this repository. These classes can be used to consume the Dynatrace APIs; they are written in C# along with XML comments to accelerate development time.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Features:
 
-### Markdown
+* Supported APIs: Problem, Timeseries and Topology.
+* Supportes both Dynatrace SaaS and Managed deployment types.
+* Easy options to search and fetch data on the environment.
+* Ability to download data as CSV files.
+* Graphical visualization of data using charts.
+* Provides insight on the infrastructure.
+* Secured with SSL and encryption.
+* Automatically updates on new releases.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Installation:
 
-```markdown
-Syntax highlighted code block
+* Download the package from the above link.
+* Install the program by running the 'setup.exe' file.
+* Create a new profile with your Dynatrace instance information and that's it.
 
-# Header 1
-## Header 2
-### Header 3
+#### Class Usage:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/leonerdo037/DynaTracer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Download the 'Classes' folder and import them into your Visual Studio project.
+2. All the API calls can be made by creating an object for the class 'Dynatrace API'.
