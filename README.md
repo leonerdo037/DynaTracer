@@ -1,6 +1,8 @@
 ## DynaTracer
 
   DynaTracer is a windows client, powered by the Dynatrace REST API. The client will automatically update on every new release. The basic classes used to initiate the API calls and store data, are provided in this repository. These classes can be used to consume the Dynatrace APIs; they are written in C# along with XML comments to accelerate development time.
+  
+### Download: [DynaTracer pre-alpha v1.1.1.0.zip](https://github.com/leonerdo037/DynaTracer/files/1951218/DynaTracer.pre-alpha.v1.1.1.0.zip)
 
 ### Features:
 
